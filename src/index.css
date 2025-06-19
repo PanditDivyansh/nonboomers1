@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Satisfy&family=UnifrakturMaguntia&display=swap');
+@import "tailwindcss";
+
+
+body{
+  font-family:'Times New Roman', Times, serif;
+  width: 100dvw;
+  background-color: #c4b1ae;
+  overflow-x: hidden;
+}
+
+@theme{
+  --font-chomsky: "chomsky","sans-serif";
+  --color-silver1: #b4ada3;
+  --color-silver2: #c4b1ae;
+  --color-khaki1: #bfb59e;
+  --color-khaki2: #cab7a2;
+  --color-bgray: #858786; 
+  --color-b2gray:#4F4B4C;
+  --color-red1:#F3611A;
+}
+
+@layer base{
+  @font-face {
+    font-family: 'chomsky';
+    src: url('../chomsky/font/Chomsky.woff2') format('woff2');
+  }
+}
+
+@keyframes ashFade {
+  0% {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(-60px) scale(0.5);
+    opacity: 0;
+  }
+}
+@keyframes crackPop {
+  0% {
+    opacity: 0;
+    filter: brightness(2);
+    clip-path: inset(0 0 0 100%); /* Fully hidden from right */
+  }
+  10% {
+    opacity: 0.3;
+    clip-path: inset(0 0 0 70%);
+  }
+  30% {
+    opacity: 0.6;
+    filter: brightness(1.5);
+    clip-path: inset(0 0 0 40%);
+  }
+  50% {
+    opacity: 0.9;
+    clip-path: inset(0 0 0 15%);
+  }
+  100% {
+    opacity: 1;
+    clip-path: inset(0 0 0 0%); /* Fully visible */
+  }
+}
+
+.crack-animate {
+  animation: crackPop 0.2s ease-out forwards;
+}
