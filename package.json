@@ -2,10 +2,9 @@
   "name": "webzine2",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://panditdivyanh.github.io/nonboomers/",
+  
   "type": "module",
   "scripts": {
-    "deploy" : "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
     "lint": "eslint .",

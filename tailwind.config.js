@@ -8,6 +8,7 @@ export default {
     extend: {
       fontFamily: {
         chomsky: ['chomsky', 'sans-serif'],
+        
       },
     },
   },

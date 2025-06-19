@@ -24,7 +24,7 @@ const Landing = () => {
       <motion.img
         src={leaf2}
         alt="Falling Leaf"
-        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[40%] z-100  sm:w-90 w-80 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
+        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[40%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
         initial={{ y: 0, x: 0, rotate: 0, opacity: 1 }}
         animate={{
           y: [0, 60, 140, 220, 300],
@@ -46,6 +46,7 @@ const Landing = () => {
           </h1>
         </div>
         <div className='masker'>
+        
           <h1 className=' sm:text-9xl text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-chomsky font-bold text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
             They <span className='text-orange-700'>Don't</span>
           </h1>
