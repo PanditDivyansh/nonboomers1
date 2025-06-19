@@ -24,7 +24,7 @@ const Landing = () => {
       <motion.img
         src={leaf2}
         alt="Falling Leaf"
-        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[40%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
+        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[50%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
         initial={{ y: 0, x: 0, rotate: 0, opacity: 1 }}
         animate={{
           y: [0, 60, 140, 220, 300],
