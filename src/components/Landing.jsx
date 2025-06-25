@@ -24,7 +24,7 @@ const Landing = () => {
       <motion.img
         src={leaf2}
         alt="Falling Leaf"
-        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[35%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
+        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[40%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
         initial={{ y: 0, x: 0, rotate: 0, opacity: 1 }}
         animate={{
           y: [0, 60, 140, 220, 300],
@@ -58,13 +58,13 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className=' sm:hidden bg-b2gray absolute w-screen flex justify-center items-center top-[75%] py-4'>
-        <button className='px-6 text-gray-100 font-chomsky text-xl drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)]'>
+      <div className=' sm:hidden bg-orange-800 absolute w-screen flex justify-center items-center top-[75%] py-4'>
+        <button className='px-6 text-gray-200 font-chomsky text-xl drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)]'>
           Swipe to read
         </button>
       </div>
 
-      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%]  border-b2gray'></div>
+      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%]  border-orange-800'></div>
     </div>
   )
 }

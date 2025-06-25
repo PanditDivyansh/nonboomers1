@@ -6,15 +6,15 @@ const Flipbook = () => {
 
   return (
     <div data-scroll data-scroll-section
-  className="w-full min-h-screen flex justify-center items-center py-20  bg-cover bg-center border-2"
-  style={{ backgroundImage: `url(${bgtable})` }}
+  className="w-full min-h-screen flex justify-center items-center py-20  bg-gray-200 border-2"
+  s
 >
       <div className="flip-container sm:w-[30vw] sm:h-[40vw] w-[80vw] h-[120vw] relative sm:left-[15%]" onClick={() => setFlipped(!flipped)}>
         <div className={`relative book w-full h-full ${flipped ? 'flipped' : ''}`}>
           {/* Front Cover */}
-          <div className="page bg-gray-500 rounded-3xl flex">
+          <div className="page bg-orange-800 rounded-3xl flex">
             <div className="sm:w-[2vw] sm:h-[40vw] w-[4vw] h-[120vw] bg-gray-800 rounded-l-3xl" />
-            <h1 className="relative top-[30%] font-chomsky text-4xl sm:px-20 px-3 text-gray-700 drop-shadow-[2px_4px_3px_rgba(0,0,0,0.2)]">
+            <h1 className="relative top-[30%] font-chomsky text-4xl sm:px-20 px-3 text-gray-200 drop-shadow-[2px_4px_3px_rgba(0,0,0,0.2)]">
               The Domestication <br /> Of Gifted Rebels
             </h1>
           </div>
