@@ -5,7 +5,6 @@ import leaf3 from './assets/leaves/leaf3.png'
 import Marquee from './components/Marquee'
 import Indexlist from './components/Indexlist'
 import LocomotiveScroll from 'locomotive-scroll'
-import Index from './components/Index'
 
 
 
