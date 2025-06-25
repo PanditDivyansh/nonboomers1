@@ -12,7 +12,7 @@ const Landing = () => {
   }, []); // ← added missing dependency array
 
   return (
-    <div data-scroll data-scroll-speed="-0.1" data-scroll-section className='h-screen w-full bg-gray-200 pt-1 relative overflow-hidden '>
+    <div data-scroll data-scroll-speed="-0.25" data-scroll-section className='h-screen w-full bg-gray-200 pt-1 relative overflow-hidden mb-0 pb-0'>
       {showimg && (
         <img
           src={crack}
@@ -58,13 +58,13 @@ const Landing = () => {
         </div>
       </div>
 
-      <div className=' sm:hidden bg-orange-800 absolute w-screen flex justify-center items-center top-[75%] py-4'>
+      <div className=' sm:hidden bg-b2gray absolute w-screen flex justify-center items-center top-[75%] py-4'>
         <button className='px-6 text-gray-100 font-chomsky text-xl drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)]'>
           Swipe to read
         </button>
       </div>
 
-      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%] border-orange-800'></div>
+      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%]  border-b2gray'></div>
     </div>
   )
 }

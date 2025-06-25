@@ -76,4 +76,36 @@ body{
   animation: crackPop 0.2s ease-out forwards;
 }
 
+/* index.css or App.css */
+
+.flip-container {
+  perspective: 2000px;
+}
+
+.book {
+  transform-style: preserve-3d;
+  transition: transform 0.8s ease-in-out;
+  transform-origin: left;
+}
+
+.book.flipped {
+  transform: rotateY(-180deg);
+}
+
+.page {
+  backface-visibility: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.back-page {
+  transform: rotateY(180deg);
+  backface-visibility: hidden;
+}
+
+
+
 

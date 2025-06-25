@@ -5,7 +5,7 @@ const Indexlist = () => {
 
 
   return (
-    <div data-scroll data-scroll-speed="-0.2" data-scroll-section  className='fullpage w-full py-20 rounded-tr-3xl rounded-tl-3xl bg-b2gray'>
+    <div data-scroll data-scroll-speed="-0.1" data-scroll-section  className='fullpage relative w-full py-10 rounded-tr-3xl rounded-tl-3xl bg-b2gray'>
       <div
         className='transition-all duration-700 ease-in-out'
       >

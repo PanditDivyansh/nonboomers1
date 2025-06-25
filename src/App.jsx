@@ -5,6 +5,8 @@ import leaf3 from './assets/leaves/leaf3.png'
 import Marquee from './components/Marquee'
 import Indexlist from './components/Indexlist'
 import LocomotiveScroll from 'locomotive-scroll'
+import Flipbook from './components/Flipbook'
+import bgtable from './assets/tablebg.jpg'
 
 
 
@@ -12,12 +14,15 @@ import LocomotiveScroll from 'locomotive-scroll'
 const App = () => {
   const locomotivescroll = new LocomotiveScroll();
 
+  
+
   return (
-    <div className='w-full min-h-screen bg-gray-200'>
+    <div className='w-full min-h-screen bg-gray-200' style={{ backgroundImage: `url(${bgtable})` }}>
       <Navbar/>
       <Landing/>
       <Marquee/>
       <Indexlist/>
+      <Flipbook/>
     </div>
   )
 }
