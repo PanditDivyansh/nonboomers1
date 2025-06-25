@@ -12,7 +12,7 @@ const Landing = () => {
   }, []); // ← added missing dependency array
 
   return (
-    <div className='h-screen w-full bg-gray-200 pt-1 relative overflow-hidden'>
+    <div data-scroll data-scroll-speed="-0.1" data-scroll-section className='h-screen w-full bg-gray-200 pt-1 relative overflow-hidden '>
       {showimg && (
         <img
           src={crack}
@@ -24,7 +24,7 @@ const Landing = () => {
       <motion.img
         src={leaf2}
         alt="Falling Leaf"
-        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[40%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
+        className="absolute  sm:top-40  sm:left-[75%] left-[10%] top-[35%] z-100  sm:w-90 w-60 pointer-events-none opacity-90 drop-shadow-[0_8px_6px_rgba(0,0,0,0.3)]"
         initial={{ y: 0, x: 0, rotate: 0, opacity: 1 }}
         animate={{
           y: [0, 60, 140, 220, 300],
@@ -39,32 +39,32 @@ const Landing = () => {
       />
       
 
-      <div className='textstructure  sm:mt-40  sm:px-10 absolute  sm:left-190  sm:top-0 top-[43%] left-5 text-5xl'>
+      <div className='textstructure  sm:mt-40  lg:px-10 px-0 absolute  lg:left-185 sm:left-[60%]  sm:top-0 top-[43%] left-5 text-5xl'>
         <div className='masker'>
-          <h1 className=' sm:text-9xl text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-chomsky font-semibold text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
+          <h1 className='sm:text-[7vw] text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-chomsky font-semibold text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
             Read What
           </h1>
         </div>
         <div className='masker'>
         
-          <h1 className=' sm:text-9xl text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-chomsky font-bold text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
-            They <span className='text-orange-700'>Don't</span>
+          <h1 className=' sm:text-[7vw] text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-chomsky font-bold text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
+            They <span className='text-orange-800'>Don't</span>
           </h1>
         </div>
         <div className='masker'>
-          <h1 className=' sm:text-9xl text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-semibold font-chomsky text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
+          <h1 className=' sm:text-[7vw] text-6xl leading-tight  sm:leading-[8vw] tracking-tight font-semibold font-chomsky text-b2gray drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)] backdrop-blur-sm transition duration-1000 hover:scale-[1.02]'>
             Want You To...
           </h1>
         </div>
       </div>
 
-      <div className=' sm:hidden bg-orange-700 absolute w-screen flex justify-center items-center top-[75%] py-4'>
+      <div className=' sm:hidden bg-orange-800 absolute w-screen flex justify-center items-center top-[75%] py-4'>
         <button className='px-6 text-gray-100 font-chomsky text-xl drop-shadow-[2px_4px_3px_rgba(0,0,0,0.3)]'>
           Swipe to read
         </button>
       </div>
 
-      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%] border-orange-700'></div>
+      <div className='border-t-4 py-6 my-6 w-screen absolute  sm:bottom-10 top-[85%] border-orange-800'></div>
     </div>
   )
 }
