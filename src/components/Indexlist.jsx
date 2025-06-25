@@ -1,10 +1,11 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 
 const Indexlist = () => {
   const [meaning, setmeaning] = useState(false);
 
+
   return (
-    <div data-scroll data-scroll-speed="-0.08" data-scroll-section  className='w-full py-20 rounded-tr-3xl rounded-tl-3xl bg-b2gray'>
+    <div data-scroll data-scroll-speed="-0.2" data-scroll-section  className='fullpage w-full py-20 rounded-tr-3xl rounded-tl-3xl bg-b2gray'>
       <div
         className='transition-all duration-700 ease-in-out'
       >
