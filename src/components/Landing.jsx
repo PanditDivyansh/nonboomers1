@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import crack from '../assets/cracks/crack3.png'
 import leaf2 from '../assets/leaves/leaf2.png';
+import leaf4 from '../assets/leaves/leaf4.png';
 import { motion } from 'framer-motion';
-import AshFade from './AshFade';
 
 const Landing = () => {
   const [showimg, setshowimg] = useState(false);
@@ -20,6 +20,8 @@ const Landing = () => {
           alt='Glass Crack'
         />
       )}
+       
+      <img className='absolute rotate-45 top-[10%] sm:left-[5%] left-[-15%] sm:w-100 w-80' src={leaf4}></img>
      
       <motion.img
         src={leaf2}
