@@ -24,8 +24,8 @@ const Flipbook = () => {
 
      
       {/* <img className='absolute rotate-45 sm:left-[-5%] sm:w-100' src={leaf4}></img> */}
-      <img className='absolute rotate-115 sm:left-[25%] left-[-30%] sm:top-460 top-[290%]  sm:w-100 w-65' src={pen}></img>
-      <img className='absolute rotate-135 sm:left-[10%] sm:top-460 top-[310%]  sm:w-100 w-65' src={coffee}></img>
+      <img className='absolute rotate-115 sm:left-[25%] left-[-30%] sm:top-460 top-[295%]  sm:w-100 w-65' src={pen}></img>
+      <img className='absolute rotate-135 sm:left-[10%] sm:top-460 top-[315%]  sm:w-100 w-65' src={coffee}></img>
       
       
       <img className='absolute rotate-135 sm:left-[15%] left-[-30%]  sm:w-100 w-65' src={leaf4}></img>

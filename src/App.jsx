@@ -7,6 +7,7 @@ import Indexlist from './components/Indexlist'
 import LocomotiveScroll from 'locomotive-scroll'
 import Flipbook from './components/Flipbook'
 import bgtable from './assets/tablebg.jpg'
+import Footer from './components/footer'
 
 
 
@@ -23,6 +24,7 @@ const App = () => {
       <Marquee/>
       <Indexlist/>
       <Flipbook/>
+      <Footer/>
     </div>
   )
 }
