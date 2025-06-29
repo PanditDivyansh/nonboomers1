@@ -18,14 +18,14 @@ const Flipbook = () => {
 
   return (
     <div data-scroll data-scroll-section
-  className="w-full min-h-screen flex justify-center items-center py-20  bg-gray-200 border-2"
+  className="w-full min-h-screen flex justify-center items-center py-20  bg-gray-200 border-2 relative"
   s
 >
 
      
       {/* <img className='absolute rotate-45 sm:left-[-5%] sm:w-100' src={leaf4}></img> */}
-      <img className='absolute rotate-115 sm:left-[25%] left-[-30%] sm:top-460 top-[295%]  sm:w-100 w-65' src={pen}></img>
-      <img className='absolute rotate-135 sm:left-[10%] sm:top-460 top-[315%]  sm:w-100 w-65' src={coffee}></img>
+      <img className='absolute rotate-115 sm:left-[25%] left-[-30%] sm:top-40 top-[65%]  sm:w-100 w-65' src={pen}></img>
+      <img className='absolute rotate-135 sm:left-[10%] sm:top-40 top-[80%]  sm:w-100 w-[65vw]' src={coffee}></img>
       
       
       <img className='absolute rotate-135 sm:left-[15%] left-[-30%]  sm:w-100 w-65' src={leaf4}></img>
@@ -68,7 +68,7 @@ Although I know that your attention span has left the chat till here, I would li
 Isn’t it what they do to the animals who are captured by the zoo? “Domestication”? The lion’s cub (sher ka bachha) who was born with enormous strength, agility and courage who was meant to rule the jungle and roar so loud that even an animal thrice his size had to bow before him, is now trying to show people that he can jump and sit on a chair, to get some likes and comments , oh sorry I forgot I was using the lion’s metaphor , hey Siri, correct the likes and comments to claps and cheers.<br></br><br></br>
 So no matter how much we say we love our parents, which we all obviously do, we must criticize them for the fact that we hadhave been grown in such athe afore mentioned way, and this is where I would have concluded the discussion two years ago but in that case I would have been naïve. I would have missed the roots. The boomers are boomers for a reason, the difference between us and them is the fact that we have been exposed to a lot of information at our fingertips. They were domesticated at a very large scale than us. Scientists call it mental conditioning, and now they are at the age they would not like to change the way they think and behave, so according to me, even if we try to change the boomer generation, they will never acknowledge that they have been conditioned. Chances are that they may feel attacked, so my advice is don’t even try as this will not change anything.<br></br><br></br>
 So, there must be something that we can do “to be ourselves”. Well, all you need is just the realization, not for just today but a long and sustainable realization, because I also believe in the “rebel” that is present inside you and the fact that if you know that you are being controlled you will never be controlled. <br></br><br></br>
-<b>“Be the Bull that do not believe in the chains.”</b> <br></br> <br></br>
+<b>“Be the Bull that does not believe in the chains.”</b> <br></br> <br></br>
 
 
               </p>
