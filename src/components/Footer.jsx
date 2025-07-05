@@ -13,17 +13,25 @@ const Footer = () => {
            <div className='sm:flex'>
            <div>
            <h1 className='text-khaki1 text-2xl font-chomsky px-5 pt-10 overflow-hidden'>Divyansh Pandit</h1>
-           <p className='px-10 text-gray-800'>145-B, Vijay Nagar Colony, Budaun,<br></br> Uttar Pradesh-243601</p>
-           <p className='px-10 text-gray-800'>panditdivyansh304@gmail.com</p>
-           <p className='px-10 text-gray-800'>+918077496822</p>
+           <p className='px-10 text-gray-800'>
+  9A, The Imperial Towers, Altamount Road,<br />
+  Mumbai, Maharashtra — 400026
+</p>
+<p className='px-10 text-gray-800'>ceo@auroracapitalgroup.com</p>
+<p className='px-10 text-gray-800'>+91 90000 12345</p>
+
            </div>
 
            <div>
 
            <h1 className='text-khaki1 text-2xl font-chomsky px-5 pt-10 overflow-hidden'>Priyanshi</h1>
-           <p className='px-10 text-gray-800'>120, XYZ colony, Hisar,<br></br> Haryana-125006 </p>
-           <p className='px-10 text-gray-800'>priyanshi201@gmail.com</p>
-           <p className='px-10 text-gray-800'>+918077496822</p>
+        <p className='px-10 text-gray-800'>
+  1201, Celestia Heights, Golf Course Extension,<br />
+  Gurugram, Haryana — 122018
+</p>
+<p className='px-10 text-gray-800'>priyanshi.s@luminexventures.co.in</p>
+<p className='px-10 text-gray-800'>+91 98989 44221</p>
+
            </div>
            </div>
         </div>

@@ -18,7 +18,7 @@ const App = () => {
   
 
   return (
-    <div className='w-full min-h-screen bg-gray-200' style={{ backgroundImage: `url(${bgtable})` }}>
+    <div className='w-full min-h-screen bg-orange-700'  >
       <Navbar/>
       <Landing/>
       <Marquee/>
